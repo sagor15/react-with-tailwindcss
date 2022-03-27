@@ -4,7 +4,7 @@ const Link = (props) => {
   const { name, link } = props.route;
   return (
     <div>
-      <li>
+      <li className='mr-20 text-white ' >
         <a href={link}>{name}</a>
       </li>
     </div>
