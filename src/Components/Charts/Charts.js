@@ -50,6 +50,8 @@ const Charts = () => {
   return (
     <LineChart width={300} height={500} data={data}>
       <Line dataKey={"uv"}></Line>
+      <Line dataKey={"amt"}></Line>
+      <Line dataKey={"pv"}></Line>
       <XAxis dataKey={"name"}></XAxis>
       <YAxis></YAxis>
       <Tooltip></Tooltip>

@@ -9,9 +9,8 @@ function App() {
   return (
     <div className="App">
       <Navber />
-
-      <h1 className="text-5xl">prectice money club</h1>
       <Charts></Charts>
+      <h1 className="text-5xl">prectice money club</h1>
       <Header />
       <Pricing />
     </div>
